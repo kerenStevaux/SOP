@@ -1,0 +1,50 @@
+mkdir Atividade01
+cd Atividade01
+copy con Notas01.txt
+Senai01
+
+copy con Nota02.txt
+Senai02
+
+cd Nota02.txt.txt
+type Nota02.txt
+fc Notas01.txt Nota02.txt
+cd..
+mkdir Backup
+cd Backup
+copy Notas01.txt
+cd..
+cd Atividade01
+copy Notas01.txt Backup
+copy Nota02.txt Backup
+s
+del Backup
+cd..
+copy Atividade01 Backup
+cd Atividade01
+del Notas01.txt
+del Nota02.txt
+tasklist
+cd..
+ren Atividade01 Trabalhos
+mkdir Documentos
+cd Documentos
+mkdir Projetos
+mkdir Pessoais 
+cd..
+move Trabalhos Documentos
+move Backup Documentos
+cd Documentos 
+ren Pessoais Lazer
+cd Lazer
+copy con Viagem.txt
+It lia 
+Gr‚cia
+Noroega
+Cura‡ao
+Estados Unidos
+
+cd..
+tree /f
+cd..
+doskey/history >> keren.txt
