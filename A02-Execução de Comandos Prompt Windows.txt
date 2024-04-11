@@ -38,10 +38,10 @@ cd Documentos
 ren Pessoais Lazer
 cd Lazer
 copy con Viagem.txt
-It lia 
-Gr‚cia
+ItÂ lia 
+Grâ€šcia
 Noroega
-Cura‡ao
+Curaâ€¡ao
 Estados Unidos
 
 cd..
